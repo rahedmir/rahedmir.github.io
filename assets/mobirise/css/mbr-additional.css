@@ -712,6 +712,11 @@ section.lazy-placeholder:after {
 .cid-qTkA127IK8 {
   background-image: url("../../../assets/images/background-mir-2000x1335.jpg");
 }
+.cid-qTkA127IK8 .mbr-text,
+.cid-qTkA127IK8 .mbr-section-btn {
+  text-align: center;
+  color: #465052;
+}
 .cid-rv8z3nD2Ox {
   padding-top: 45px;
   padding-bottom: 45px;
