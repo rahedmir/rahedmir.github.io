@@ -24,8 +24,8 @@
         "display4Font": "Rubik",
         "display4Size": 1,
         "isRoundedButtons": true,
-        "isAnimatedOnScroll": false,
-        "isScrollToTopButton": false
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
       },
       "additionalSetColors": []
     },
@@ -46,7 +46,7 @@
       "settings": {
         "main": true,
         "title": "Mir Rahed Uddin",
-        "meta_descr": "",
+        "meta_descr": "Hi, I'm Mir Rahed Uddin. I am a college student. I love to learn a different kind of technology especially computer-related things. ",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
