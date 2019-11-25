@@ -720,7 +720,7 @@ section.lazy-placeholder:after {
 .cid-rv8z3nD2Ox {
   padding-top: 45px;
   padding-bottom: 45px;
-  background-color: #f3f4f6;
+  background-color: #efefef;
 }
 .cid-rv8z3nD2Ox .testimonial-text {
   font-style: italic;
@@ -737,8 +737,62 @@ section.lazy-placeholder:after {
 .cid-rv8z3nD2Ox .mbr-author-name SPAN {
   color: #767676;
 }
+.cid-rIOAIBETGz {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background-color: #efefef;
+}
+.cid-rIOAIBETGz .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rIOAIBETGz H2 {
+  color: #767676;
+}
+.cid-rIOy36ouXQ {
+  padding-top: 30px;
+  padding-bottom: 75px;
+  background-color: #efefef;
+}
+.cid-rIOy36ouXQ .card-box {
+  padding: 0 2rem;
+}
+.cid-rIOy36ouXQ .mbr-section-btn {
+  padding-top: 1rem;
+}
+.cid-rIOy36ouXQ .mbr-section-btn a {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.cid-rIOy36ouXQ h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 2rem;
+}
+.cid-rIOy36ouXQ p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+.cid-rIOy36ouXQ .mbr-text {
+  color: #767676;
+}
+.cid-rIOy36ouXQ .card-wrapper {
+  height: 100%;
+  padding-bottom: 2rem;
+  background: #ffffff;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rIOy36ouXQ .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-rIOy36ouXQ .card-title {
+  color: #767676;
+}
 .cid-rv8tBgEemY {
-  padding-top: 90px;
+  padding-top: 60px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
@@ -784,12 +838,12 @@ section.lazy-placeholder:after {
 }
 .cid-rrB5XL9DkF .navbar {
   padding: .5rem 0;
-  background: #333333;
+  background: #465052;
   transition: none;
   min-height: 77px;
 }
 .cid-rrB5XL9DkF .navbar-dropdown.bg-color.transparent.opened {
-  background: #333333;
+  background: #465052;
 }
 .cid-rrB5XL9DkF a {
   font-style: normal;
@@ -873,7 +927,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-rrB5XL9DkF .dropdown .dropdown-menu {
-  background: #333333;
+  background: #465052;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -1174,7 +1228,7 @@ section.lazy-placeholder:after {
 .cid-rv8vo3Paxo {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #2e2e2e;
+  background-color: #465052;
 }
 .cid-rv8vo3Paxo .row-links {
   width: 100%;
@@ -1244,7 +1298,7 @@ section.lazy-placeholder:after {
 .cid-rrAQLoBDwm {
   padding-top: 135px;
   padding-bottom: 90px;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 .cid-rrAQLoBDwm h2 {
   text-align: left;
@@ -1313,12 +1367,12 @@ section.lazy-placeholder:after {
 }
 .cid-rrB3HPGqYJ .navbar {
   padding: .5rem 0;
-  background: #333333;
+  background: #465052;
   transition: none;
   min-height: 77px;
 }
 .cid-rrB3HPGqYJ .navbar-dropdown.bg-color.transparent.opened {
-  background: #333333;
+  background: #465052;
 }
 .cid-rrB3HPGqYJ a {
   font-style: normal;
@@ -1402,7 +1456,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-rrB3HPGqYJ .dropdown .dropdown-menu {
-  background: #333333;
+  background: #465052;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -1718,7 +1772,7 @@ section.lazy-placeholder:after {
 .cid-rv8FqsLiRU {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #2e2e2e;
+  background-color: #465052;
 }
 .cid-rv8FqsLiRU .row-links {
   width: 100%;
