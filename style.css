@@ -1,0 +1,169 @@
+
+/* Glogal CSS */
+
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p, li {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+ul {
+    padding-inline-start: 0;			
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;		
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+/* Custom CSS */
+
+.left-panel {
+    color: #fff;
+    background-color: #5F3E3C;
+}
+
+.left-panel p {
+    margin: 20px 45px 40px 45px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+}
+
+.resume-button {
+    color: #fff;
+    background-color: #f44336;
+	padding: 10px 25px;
+}
+
+.social-text {
+    margin: 40px 20px 20px 20px;
+}
+
+.fill-height {
+    height: 100vh;
+ }
+
+.right-panel {
+    background-color: #FFF;
+    padding: 30px;
+}
+
+.right-panel h4 {
+    border-bottom: 2px solid #060606;
+    width: 420px;
+}
+
+.project-links {
+    color: #060606;
+}
+
+.project-links:hover {
+    text-decoration: underline;
+}
+
+.footer-text {
+    padding: 20px 10px 0px 10px;
+}
+
+.footer-hide-right {
+   display: none;
+}
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 1180px) {
+    
+    .left-panel p {
+        margin: 20px 20px 40px 20px;
+    }
+
+  }
+
+  @media only screen and (max-width: 1030px) {
+    
+    .left-panel p {
+        margin: 20px 10px 40px 10px;
+    }
+
+  }
+
+  @media only screen and (max-width: 968px) {
+    
+    .left-panel p {
+        margin: 20px 8px 40px 8px;
+    }
+
+  }
+
+  @media only screen and (max-width: 820px) {
+    
+    .profile-image {
+        margin-left: 20px;
+    }
+
+    .social-links {
+        height: 40px;
+        width: 40px;
+    }
+
+  }
+
+  @media only screen and (max-width: 767px) {
+
+    ul {
+        padding-bottom: 25px;
+    }
+    
+    .footer-hide-left {
+        display: none;
+    }
+
+    .footer-hide-right {
+       display: block;
+       margin-bottom: 0px;
+    }
+
+    .footer-text {
+        text-align: center;
+        color: #FFF;
+        background-color: #5F3E3C;
+        padding: 20px 10px 20px 10px;
+        margin-top: 60px;
+    }
+
+  }
+
+  @media only screen and (max-width: 640px) {
+    
+    .left-panel p {
+        margin: 20px 30px 40px 30px;
+    }
+
+    .right-panel h4 {
+        width: 80vw;
+    }
+
+  }
+
+  
+
