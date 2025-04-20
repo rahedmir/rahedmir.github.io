@@ -3,8 +3,8 @@
 
 h4 {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-style: normal;
+    font-weight: 400;
 }
 
 p, li {
@@ -26,7 +26,6 @@ a {
     text-align: center;
     text-decoration: none;
 }
-
 
 
 /* Custom CSS */
@@ -71,19 +70,19 @@ a {
     width: 420px;
 }
 
-.project-links {
+.links {
     color: #060606;
 }
 
-.project-links:hover {
+.links:hover {
     text-decoration: underline;
 }
 
-.footer-text {
+.footer-left {
     padding: 20px 10px 0px 10px;
 }
 
-.footer-hide-right {
+.footer-bottom {
    display: none;
 }
 
@@ -133,22 +132,25 @@ a {
     ul {
         padding-bottom: 25px;
     }
+
+    .project-padding {
+        padding-bottom: 100px;
+    }
     
-    .footer-hide-left {
-        display: none;
-    }
-
-    .footer-hide-right {
-       display: block;
-       margin-bottom: 0px;
-    }
-
     .footer-text {
         text-align: center;
         color: #FFF;
-        background-color: #5F3E3C;
+        background-color: #5F3E3C;    
+    }
+
+    .footer-left {
+        display: none;
+    }
+
+    .footer-bottom { 
+        display: block;
         padding: 20px 10px 20px 10px;
-        margin-top: 60px;
+        margin-bottom: 0;
     }
 
   }
@@ -164,6 +166,3 @@ a {
     }
 
   }
-
-  
-
