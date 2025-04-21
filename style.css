@@ -1,6 +1,10 @@
 
 /* Glogal CSS */
 
+body {
+    background-color: #5F3E3C;
+}
+
 h4 {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -55,10 +59,6 @@ a {
 .social-text {
     margin: 40px 20px 20px 20px;
 }
-
-.fill-height {
-    height: 100vh;
- }
 
 .right-panel {
     background-color: #FFF;
@@ -135,7 +135,6 @@ a {
 
     .right-panel {
         display: none;
-        background-color: #5F3E3C;
     }
 
     .project-padding {
