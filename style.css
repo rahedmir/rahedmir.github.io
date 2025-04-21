@@ -1,8 +1,8 @@
 
 /* Glogal CSS */
 
-body {
-    background-color: #5F3E3C;
+html {
+    background-color: #5F3E3C !important;
 }
 
 h4 {
