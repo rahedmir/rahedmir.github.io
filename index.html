@@ -55,7 +55,7 @@
             <p class="footer-left">&copy; 2025. All rights reserved.</p>
         </div>
 
-        <div class="col-md-8 fill-height right-panel">
+        <div class="col-md-8 fill-height right-panel" id="toogle-panel">
             <h4>Qualifications</h4>		
             <h5>M.Tech (Work Integrated Learning Program)</h5>
             <p><a href="https://www.bits-pilani.ac.in" target="_blank" class="links">Bits Pilani.</a></p>
@@ -85,7 +85,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 px-0 overflow-hidden">
-                    <p class="fixed-bottom footer-bottom footer-text">&copy; 2025. All rights reserved.</p>
+                    <p class="fixed-bottom footer-bottom footer-text">&copy; 2025. All rights reserved. &nbsp; <img src="./images/icon/scroll_30px.png" alt="Scroll Page" onclick="toggleScroll()"></p>
                 </div>
             </div>
         </div>
@@ -94,4 +94,32 @@
 
 </body>
 
+<script>
+    const toogle = document.getElementById("toogle-panel");
+    let scrolledDown = false;
+
+    function toggleScroll() {
+
+      if (!scrolledDown) {
+        toogle.style.display = "block";
+        window.scrollBy({
+            // scroll down
+          top: 900, 
+          left: 0,
+          behavior: 'smooth'   
+        });
+      } 
+      else {
+        toogle.style.display = "none";
+        window.scrollBy({
+            // scroll up
+          top: -900, 
+          left: 0,
+          behavior: 'smooth'
+        });  
+      }
+
+      scrolledDown = !scrolledDown;
+    }
+  </script>
 </html>
