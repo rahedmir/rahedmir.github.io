@@ -133,6 +133,11 @@ a {
         padding-bottom: 25px;
     }
 
+    .right-panel {
+        display: none;
+        background-color: #5F3E3C;
+    }
+
     .project-padding {
         padding-bottom: 100px;
     }
