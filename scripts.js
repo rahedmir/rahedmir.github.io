@@ -1,6 +1,7 @@
 
     const toogle = document.getElementById("toogle-panel");
     const fillHeight = document.getElementById("fill-height");
+    
     let scrolledDown = false;
 
     function toggleScroll() {
