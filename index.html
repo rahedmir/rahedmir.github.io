@@ -125,5 +125,22 @@
 
       scrolledDown = !scrolledDown;
     }
+
+    function isMobile() {
+      return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    }
+
+    function isLandscape() {
+      return window.innerWidth > window.innerHeight;
+    }
+
+    function orientationChange() {
+      if (isMobile() && isLandscape()) {
+      location.reload();
+    }
+  } 
+
+    window.addEventListener("orientationchange", orientationChange);
+    window.addEventListener("resize", orientationChange);
   </script>
 </html>
