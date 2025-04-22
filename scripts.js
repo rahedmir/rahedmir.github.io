@@ -49,14 +49,35 @@
     window.addEventListener("orientationchange", orientationChange);
     window.addEventListener("resize", orientationChange);
 
-    function isDesktopSite() {
-    const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-    const wideScreen = window.innerWidth > 1024;
-    const pixelRatio = window.devicePixelRatio <= 1;
-
-    return isMobile && (wideScreen || pixelRatio);
+    function isMobileDevice() {
+      return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
     }
-
-    if (isDesktopSite()) {
-      fillHeight.style.height = "100vh";
+    
+    function isPortraitMode() {
+      return window.innerHeight > window.innerWidth;
     }
+    
+    function isDesktopSiteEnabledOnMobile() {
+      const pixelRatio = window.devicePixelRatio || 1;
+      const wideViewport = window.innerWidth > 1024; 
+      const isMobile = isMobileDevice();
+      const isPortrait = isPortraitMode();
+    
+      return isMobile && wideViewport && isPortrait;
+    }
+    
+   
+    window.onload = () => {
+      if (isDesktopSiteEnabledOnMobile()) {
+        fillHeight.style.height = "1000vh";
+      } else {
+        
+      }
+    };
+    
+
+    window.addEventListener("resize", () => {
+      if (isDesktopSiteEnabledOnMobile()) {
+        fillHeight.style.height = "1000vh";
+      }
+    });
