@@ -1,6 +1,5 @@
 
     const toogle = document.getElementById("toogle-panel");
-    const fillHeight = document.getElementById("fill-height");
     
     let scrolledDown = false;
 
@@ -48,36 +47,3 @@
 
     window.addEventListener("orientationchange", orientationChange);
     window.addEventListener("resize", orientationChange);
-
-    function isMobileDevice() {
-      return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-    }
-    
-    function isPortraitMode() {
-      return window.innerHeight > window.innerWidth;
-    }
-    
-    function isDesktopSiteEnabledOnMobile() {
-      const pixelRatio = window.devicePixelRatio || 1;
-      const wideViewport = window.innerWidth > 1024; 
-      const isMobile = isMobileDevice();
-      const isPortrait = isPortraitMode();
-    
-      return isMobile && wideViewport && isPortrait;
-    }
-    
-   
-    window.onload = () => {
-      if (isDesktopSiteEnabledOnMobile()) {
-        fillHeight.style.height = "1000vh";
-      } else {
-        
-      }
-    };
-    
-
-    window.addEventListener("resize", () => {
-      if (isDesktopSiteEnabledOnMobile()) {
-        fillHeight.style.height = "1000vh";
-      }
-    });

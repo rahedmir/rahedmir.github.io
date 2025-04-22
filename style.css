@@ -27,8 +27,8 @@ li {
 }
 
 a {
-    text-align: center;
     text-decoration: none;
+    text-align: center;
 }
 
 
@@ -70,9 +70,6 @@ a {
     width: 420px;
 }
 
-.fill-height {
-    height: 120vh;
-}
 .links {
     color: #060606;
 }
