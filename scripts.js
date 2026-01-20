@@ -1,4 +1,26 @@
 
+    document.getElementById('contactFormContent').addEventListener('submit', async function(event) {
+    
+    event.preventDefault();
+
+    const form = event.target;
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (response.ok) {
+    
+      const modal = bootstrap.Modal.getInstance(document.getElementById('contactForm'));
+      modal.hide();
+      window.location.href = 'https://rahedmir.com/thankyou.html';
+    } else {
+      alert('Something went wrong! Please try again.');
+    }
+  });
+    
+    
     const toogle = document.getElementById("toogle-panel");
     
     let scrolledDown = false;

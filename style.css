@@ -115,11 +115,15 @@ a {
 }
 
 .contact-links {
-    color: #FFF;
+    color: #FFF !important;
 }
 
 .contact-links:hover {
     text-decoration: underline;
+}
+
+.contact-links a {
+    text-decoration: none;
 }
 
 .btn {
@@ -227,7 +231,7 @@ a {
     }
 
     .contact-links {
-        color: #0E0D0D;
+        color: #0E0D0D !important;
     }
     
     .footer-text {
