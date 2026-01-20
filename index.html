@@ -54,10 +54,10 @@
 		    <li><a href="https://dev.to/rahedmir" target="_blank"><img src="images/icon/dev-to_48px.png" alt="Dev.to" class="social-links social-shadow"></a></li>
 		    </ul>
 
-            <p class="footer-left">&copy; 2025. All rights reserved.</p>
+            <p class="footer-left"><a href="#" data-bs-toggle="modal" data-bs-target="#contactForm" class="contact-links"><u>Contact Form</u></a> &nbsp; &copy; 2026. All rights reserved.</p>
         </div>
 
-        <div class="col-md-8 right-panel" id="toogle-panel">
+        <div id="toogle-panel" class="col-md-8 right-panel">
 
             <h4>Qualifications</h4>		
             <h5>M.Tech (Computing Systems and Infrastructure)</h5>
@@ -88,12 +88,51 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 px-0 overflow-hidden">
-                    <p class="fixed-bottom footer-bottom footer-text">&copy; 2025. All rights reserved. &nbsp; <img src="./images/icon/scroll_30px.png" alt="Scroll Page" onclick="toggleScroll()"></p>
+                    <p class="fixed-bottom footer-bottom footer-text"><a href="#" data-bs-toggle="modal" data-bs-target="#contactForm" class="contact-links"><u>Contact Form</u></a> &nbsp; &copy; 2026. All rights reserved. &nbsp; <img src="./images/icon/scroll_30px.png" alt="Scroll Page" onclick="toggleScroll()"></p>
                 </div>
             </div>
         </div>
     </div>
   </div>  
+
+  <!-- Contact Form -->
+  <div class="modal fade" id="contactForm" tabindex="-1" aria-labelledby="contactModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        
+        <div class="modal-header">
+          <h5  id="contactModal" class="modal-title">Contact Form</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <div class="modal-body">
+          <form id="contactFormContent" action="https://formspree.io/f/mbdlnneo" method="POST">
+              <input type="hidden" name="_redirect" value="https://rahedmir.com/thankyou.html">
+
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" name="text" id="name" class="form-control" placeholder="Enter name" required>
+            </div>
+            
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" name="email" id="email" class="form-control" placeholder="Enter email" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea rows="4" name="message" id="message" class="form-control" placeholder="Type message here..." required></textarea>
+            </div>
+
+            <div class="modal-footer">
+            <button type="submit" id="submitForm" class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </div>
 
 </body>
 

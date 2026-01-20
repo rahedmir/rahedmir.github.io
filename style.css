@@ -1,4 +1,6 @@
 
+/* index.html */
+
 /* Global CSS */
 
 html {
@@ -11,7 +13,7 @@ h4 {
     font-weight: 400;
 }
 
-p, li {
+p, li, form, .modal-title, .btn {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -30,6 +32,7 @@ a {
     text-decoration: none;
     text-align: center;
 }
+
 
 
 /* Custom CSS */
@@ -111,8 +114,28 @@ a {
     text-decoration: underline;
 }
 
+.contact-links {
+    color: #FFF;
+}
+
+.contact-links:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    border: 1px solid #060606;
+    color: #060606;
+    background-color: #FFF;
+    padding: 8px 25px;
+}
+
+.btn:hover {
+    border: 1px solid #060606;
+    color: #060606;
+}
+
 .footer-left {
-    padding: 20px 10px 0px 10px;
+    padding: 12px 1px 4px 1px;
 }
 
 .footer-bottom {
@@ -202,6 +225,10 @@ a {
     .project-padding {
         padding-bottom: 100px;
     }
+
+    .contact-links {
+        color: #0E0D0D;
+    }
     
     .footer-text {
         text-align: center;
@@ -232,3 +259,38 @@ a {
     }
 
   }
+
+
+
+
+
+  /* thankyou.html */
+
+  /* Custom CSS */
+
+  .messages {
+    height: 100vh;
+    color: #FFF;
+    background: linear-gradient(45deg, #5F3E3C,  #D81D1D) !important;
+    margin: 0;
+ }
+
+  .messages h4 {
+    padding-top: 100px;
+    padding-bottom: 15px;
+ }
+
+
+ /* Media Queries */
+
+  @media only screen and (max-width: 767px) {
+
+  .messages {
+    height: 100vh;
+    color: #0E0D0D;
+    background: #FFF !important;
+    margin: 0;
+  }
+
+}
+
